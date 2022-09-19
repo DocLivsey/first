@@ -1,0 +1,103 @@
+header{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    width:100%; 
+    background-color: darkgrey; 
+    padding: 10px; 
+    height:120px;
+    border-radius: 16px;
+    color: gold;
+}
+img.logo{
+    margin-left:190px; 
+    width:100px; 
+    height:100px;
+    float: left;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+    background-color: bisque;
+}
+nav{
+    max-width: 960px;
+    width: 280px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: darkgrey;
+    font-style: oblique;
+    
+}
+.href{
+    background-color: darkgrey;
+    border-radius: 16px;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+.forms{
+    background-color: darkgrey;
+    border-radius: 16px;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+.table{
+    background-color: darkgrey;
+    border-radius: 16px;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+table{
+    max-width: 960px;
+    border: 8px solid green;
+}
+
+table tr:nth-child(even) {
+    color:aqua;
+    background-color: yellow;
+}
+
+table tr:nth-child(odd) {
+    color: red;
+    background-color: purple;
+}
+
+h2{
+    font-size: 32px;
+    color: gold;
+    font-style: italic;
+    padding-left: 32px;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+}
+ol{
+    font-size: 18px;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+}
+form{
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: darkgrey;
+    border-radius: 16px;
+}
