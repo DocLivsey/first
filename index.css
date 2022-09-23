@@ -9,7 +9,7 @@ header{
     height: 120px;
 }
 img.logo{
-    margin-right: 10px;
+    margin-right:10px;
     margin-left:190px; 
     width:100px; 
     height:100px;
@@ -109,21 +109,32 @@ footer{
     background-color: darkgrey;
     border-radius: 16px;
 }
-#main-aside-wrapper{
+#content-wrapper{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
-#main-aside-wrapper aside{
+#body-wrapper aside{
     flex: 1;
     order: 1;
+    margin: 10px;
+    padding: 10px;
 }
-#main-aside-wrapper main{
+#body-wrapper main{
     flex: 4;
     order: 2;
+    margin: 10px;
+    padding: 10px;
+}
+#body-wrapper footer{
+    flex: 1;
+    order: 3;
+    margin: 10px;
+    padding: 10px;
 }
 @media screen and (min-width: 800px) {
-    #main-aside-wrapper {
-        flex-direction: row;
+    #body-wrapper {
+        display: flex;
+        flex-flow: column wrap;
     }
 }
