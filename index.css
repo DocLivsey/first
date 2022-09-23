@@ -110,19 +110,20 @@ footer{
     border-radius: 16px;
 }
 #main-aside-wrapper{
-    display: block;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 #main-aside-wrapper aside{
     flex: 1;
     order: 1;
 }
 #main-aside-wrapper main{
-    flex: 3;
+    flex: 4;
     order: 2;
 }
 @media screen and (min-width: 800px) {
     #main-aside-wrapper {
-      flex-direction: row;
+        flex-direction: row;
     }
 }
