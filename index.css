@@ -111,7 +111,7 @@ footer{
 }
 #main-aside-wrapper{
     display: block;
-    flex-direction: column;
+    flex-direction: row;
 }
 #main-aside-wrapper aside{
     flex: 1;
