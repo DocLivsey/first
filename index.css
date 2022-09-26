@@ -19,7 +19,7 @@ header{
     border-radius: 16px;
     background-color: darkgrey; 
     margin: auto;
-    padding: 10px;
+    padding: 2%;
     width: 100%;
 }
 .head{
@@ -28,13 +28,13 @@ header{
     width: 50%;
     text-align: center;
     border-radius: 16px;
-    padding:8px;
+    padding:2%;
     color: gold;
 }
 .logo{
     margin-left: 4%;
-    width:100px; 
-    height:100px;
+    width:20%; 
+    height:20%;
 }
 .content-wrapper{
     display: flex;
@@ -117,12 +117,13 @@ footer{
         padding: 1%;
         width: 100%;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 10px;
         padding-left: 10%;
         height: 120px;
     }
     .head{
         margin: 2%;
+        padding: 1%;
     }
     .logo{
         margin-right: 1%;
