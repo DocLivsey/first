@@ -7,7 +7,9 @@ a:hover{
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0%;
-    background-color: bisque; 
+    /*background-color: bisque;*/
+    background: radial-gradient( gold, goldenrod,  bisque);
+
 }
 header{
     display: flex;
@@ -74,6 +76,20 @@ form{
     padding: 4%;
     font-size: 32px;
 }
+input{
+    border: 4px groove antiquewhite;
+    font-size: 24px;
+    padding: 1%;
+}
+select{
+    border: 4px groove antiquewhite;
+    font-size: 24px;
+}
+textarea{
+    border: 4px groove antiquewhite;
+    padding: 1%;
+    font-size: 24px;
+}
 .table{
     order: 2;
     width: 100%;
@@ -84,16 +100,22 @@ form{
     border-radius: 16px;
 }
 table{
-    border: 4px solid blue;
+    border: 4px groove darkmagenta;
+    font-size: 24px;
+    font-weight: bold;
     text-align: center;
     width: 100%;
 }
+td{
+    padding: 1%;
+}
+th{
+    padding: 1%;
+}
 table tr:nth-child(even) {
-    color:aqua;
     background-color: yellow;
 }
 table tr:nth-child(odd) {
-    color: red;
     background-color: purple;
 }
 h2{
@@ -148,7 +170,7 @@ footer{
         margin: auto;
         margin-top: 20px;
         padding: 10px;
-        font-size: 16px;
+        font-size: 20px;
     }
     .table{
         max-width: 960px;
@@ -175,6 +197,16 @@ footer{
         margin-top: 20px;
         padding: 10px;
         font-size: 20px;
+    }
+    input{
+        font-size: 16px;
+        padding: 1%;
+    }
+    select{
+        font-size: 16px;
+    }
+    textarea{
+        font-size: 16px;
     }
     footer{
         margin: 10px;

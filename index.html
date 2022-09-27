@@ -41,8 +41,8 @@
             <li> список ссылок основной навигации сайта с подписями title
               <ul>
                 <li><a href="#" title="Начало">Начало</a></li>
-                <li><a href="#picture" title="Картинка">Картинка</a></li>
-                <li><a href="#form" title="Формы">Формы</a></li>
+                <li><a href="#form" title="Форма">Форма</a></li>
+                <li><a href="#table" title="Таблица">Таблица</a></li>
               </ul>
             </li>
             <li><a title="Ссылки нет">ссылку без href</a></li>
@@ -56,9 +56,9 @@
               <img id="navigationPicture" src="https://media.istockphoto.com/photos/icons-numbers-1-2-3-picture-id470166856" 
               width="350" height="200" usemap="#navigationMap" alt="Навигация">
               <map name="navigationMap" id="navigationMap">
-                <area shape="rect" alt="Начало" coords="31,44,118,118" href="#">
-                <area shape="circle" alt="Картинка" coords="176,78,48" href="#picture">
-                <area shape="circle" alt="Формы" coords="276,78,48" href="#form">
+                <area shape="rect" alt="Начало" title="Начало" coords="31,44,118,118" href="#">
+                <area shape="circle" alt="Форма" title="Форма" coords="176,78,48" href="#form">
+                <area shape="circle" alt="Таблица" title="Таблица" coords="276,78,48" href="#table">
               </map>
             </li>
             <li><a target="_blank" href="firstHTML.html">Относительная на страницу в текущем каталоге </a></li> 
@@ -128,8 +128,7 @@
               <label><input type="radio" name="radio-group-2" value="count3"/> 3</label>
               <label><input type="radio" name="radio-group-2" value="count4" checked="checked"/> 4</label>
               <label><input type="radio" name="radio-group-2" value="count5"/> 5</label>
-              <label><input name="radio-group-2" type="radio" value="count6"/> 5+
-              </label> <br />
+              <label><input name="radio-group-2" type="radio" value="count6"/> 5+</label> <br />
               <label>
                 Выберите сверхспособности: <br />
                 <select name="field-sup" multiple="multiple">
