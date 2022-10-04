@@ -110,29 +110,29 @@
             <a id="form"></a>
               <label>
                 Введите ваше имя: <br />
-                <input name="field-firstName"> <br />
+                <input name="field-firstName" required placeholder="Введите ваше имя"> <br />
               </label>
               <label>
                 Введите почту: <br />
-                <input name="field-Email" type="email" placeholder="test@mail.ru"> <br />
+                <input name="field-Email" type="email" placeholder="test@mail.ru" required> <br />
               </label>
               <label>
                 Введите вашу дату рождения: <br />
-                <input name="field-date" value="2000-01-01" type="date"> <br />
+                <input name="field-date" value="2000-01-01" type="date" required> <br />
               </label>
               Выберете пол: <br />
-              <label><input type="radio" name="radio-group-1" value="gen1" checked="checked"/> женский </label>
-              <label><input type="radio" name="radio-group-1" value="gen2"/> мужской </label> <br />
+              <label><input required type="radio" name="radio-group-1" value="gen1" checked="checked"/> женский </label>
+              <label><input required type="radio" name="radio-group-1" value="gen2"/> мужской </label> <br />
               Выберите количество конечностей: <br />
-              <label><input type="radio" name="radio-group-2"  value="count1"/> 1</label>
-              <label><input type="radio" name="radio-group-2" value="count2"/> 2</label>
-              <label><input type="radio" name="radio-group-2" value="count3"/> 3</label>
-              <label><input type="radio" name="radio-group-2" value="count4" checked="checked"/> 4</label>
-              <label><input type="radio" name="radio-group-2" value="count5"/> 5</label>
-              <label><input name="radio-group-2" type="radio" value="count6"/> 5+</label> <br />
+              <label><input required type="radio" name="radio-group-2"  value="count1"/> 1</label>
+              <label><input required type="radio" name="radio-group-2" value="count2"/> 2</label>
+              <label><input required type="radio" name="radio-group-2" value="count3"/> 3</label>
+              <label><input required type="radio" name="radio-group-2" value="count4" checked="checked"/> 4</label>
+              <label><input required type="radio" name="radio-group-2" value="count5"/> 5</label>
+              <label><input required name="radio-group-2" type="radio" value="count6"/> 5+</label> <br />
               <label>
                 Выберите сверхспособности: <br />
-                <select name="field-sup" multiple="multiple">
+                <select required name="field-sup" multiple="multiple">
                   <option value="num1" selected="selected">левитация</option>
                   <option value="num2"> бессмертие </option>
                   <option value="num3"> прохождение сквозь стены </option>
@@ -140,13 +140,13 @@
               </label>
               <label>
                 Введите свою биографию: <br />
-                <textarea name="fieldBio" placeholder="Меня зовут Вито Скалетта"> </textarea>
+                <textarea required name="fieldBio" placeholder="Меня зовут Вито Скалетта"> </textarea>
               </label> <br />
               <label>
                 Чекбокс: <br />
-                <input type="checkbox" name="check"> С контрактом ознакомлен(а) <br />
+                <input required type="checkbox" name="check"> С контрактом ознакомлен(а) <br />
               </label>
-              <input type="submit" value="Заберите это немедленно"/>
+              <input required type="submit" value="Заберите это немедленно"/>
           </form>
         </div>
       </main>
