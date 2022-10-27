@@ -17,10 +17,10 @@ header{
     justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
+    font-size: 200%;
     border-radius: 16px;
     background-color: darkgrey; 
-    margin: auto;
+    margin: 0%;
     padding: 2%;
     width: 100%;
 }
@@ -34,7 +34,7 @@ header{
     color: gold;
 }
 .logo{
-    margin-left: 4%;
+    margin-left: 1%;
     width:20%; 
     height:20%;
 }
@@ -49,7 +49,7 @@ nav{
     width: 100%;
     margin-top: 2%;
     padding-left: 4%;
-    font-size: 32px;
+    font-size: 140%;
     border-radius: 16px;
     background-color: darkgrey;
     font-style: oblique;
@@ -60,7 +60,15 @@ nav{
     width: 100%;
     background-color: darkgrey;
     border-radius: 16px;
-    font-size: 12px;
+    font-size: 100%;
+}
+#butch-img{
+    width: 80%;
+    height: 80%;
+}
+#navigationPicture{
+    width: 60%;
+    height: 60%;
 }
 .forms{
     order: 1;
@@ -74,21 +82,21 @@ form{
     display: flex;
     flex-direction: column;
     padding: 4%;
-    font-size: 32px;
+    font-size: 120%;
 }
 input{
     border: 4px groove antiquewhite;
-    font-size: 24px;
     padding: 1%;
+    font-size: 100%;
 }
 select{
     border: 4px groove antiquewhite;
-    font-size: 24px;
+    font-size: 100%;
 }
 textarea{
     border: 4px groove antiquewhite;
     padding: 1%;
-    font-size: 24px;
+    font-size: 100%;
 }
 .table{
     order: 2;
@@ -101,7 +109,7 @@ textarea{
 }
 table{
     border: 4px groove darkmagenta;
-    font-size: 24px;
+    border-radius: 16px;
     font-weight: bold;
     text-align: center;
     width: 100%;
@@ -119,10 +127,13 @@ table tr:nth-child(odd) {
     background-color: purple;
 }
 h2{
-    font-size: 20px;
+    font-size: 135%;
     color: gold;
     font-style: italic;
     padding-left: 4%;
+}
+img{
+    border-radius: 16px;
 }
 footer{
     width: 100%;
@@ -130,22 +141,18 @@ footer{
     margin-top: 2%;
     background-color: darkgrey;
     border-radius: 16px;
-    font-size: 32px;
+    font-size: 150%;
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 760px) {
     header{
-        justify-content: flex-start;
-        font-size: 64px;
+        justify-content: center;
         padding: 1%;
-        width: 100%;
-        margin: auto;
-        margin-top: 10px;
-        padding-left: 10%;
-        height: 120px;
+        max-height: 6rem;
     }
     .head{
-        margin: 2%;
+        margin: 5%;
         padding: 1%;
+        margin-right: 10%;
     }
     .logo{
         margin-right: 1%;
@@ -159,18 +166,17 @@ footer{
     nav{
         flex-direction: row;
         justify-content: space-between;        
-        width: 280px;
+        max-width: 320px;
         margin: auto;
         margin-top: 20px;
         padding: 1%;
-        font-size: 20px;
     }
     .href{
+        font-size: 110%;
         max-width: 960px;
         margin: auto;
         margin-top: 20px;
         padding: 10px;
-        font-size: 20px;
     }
     .table{
         max-width: 960px;
@@ -196,29 +202,18 @@ footer{
         margin: auto;
         margin-top: 20px;
         padding: 10px;
-        font-size: 20px;
     }
     input{
-        font-size: 16px;
         padding: 1%;
-    }
-    select{
-        font-size: 16px;
-    }
-    textarea{
-        font-size: 16px;
     }
     footer{
         margin: 10px;
         padding: 10px;
         margin: auto;
         margin-top: 20px;
-        font-size: 20px;
     }
     h2{
+        font-size: 140%;
         max-width: 960px;
-        margin: auto;
-        margin-top: 20px;
-        font-size: 32px;
     }
 }
